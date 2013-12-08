@@ -24,7 +24,6 @@ class StudentViewRss2 extends JView
         print_r($model);*/
         $model =& $this->getModel();
         $detail1 = $model->getListQuery();
-//echo '<pre>'; print_r($detail);
         return $detail1;
 	}
     	

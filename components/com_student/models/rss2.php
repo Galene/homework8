@@ -35,16 +35,16 @@ class StudentModelRss2 extends jModelList{
     function getShowxml($db_value){
         ob_clean();
         header("Cache-Control:no-cache, must-revalidate");
-        header("Expires: Fr, 6 Dec 2013 20:00:00 GMT");
+        header("Expires: Fr, 10 Dec 2013 10:00:00 GMT");
         header("content-type: text/xml");
 
         echo '<?xml version="1.0" encoding="utf-8"?>';
 
         echo '<rss  version="2.0">';
         echo '<channel>';
-        echo '<title>Student List</title>';
-        //echo '<link>'.JURI::root().'</link>';
-            /*if (count($db_value) > 0){*/
+        echo '<title>Students List</title>';
+        echo '<link>'.JURI::root().'</link>';
+        if (count($db_value) > 0){
             //echo '<br><pre>dsfsdf'; print_r($db_value);
         foreach ($db_value as $value){
             echo '<item>';
@@ -53,15 +53,14 @@ class StudentModelRss2 extends jModelList{
             echo '</title>';
             echo '<description>';
             echo '<![CDATA['.$value->id.']]>';
-            echo "<![CDATA[<br>]]>";
-            echo '<![CDATA['.$value->group.']]>';
+            echo '<![CDATA[<img src="http://edu.loc/'.$value->photo.'">]]>';
+            echo '<![CDATA['.$value->general_information.']]>';
             echo '</description>';
-            echo '<group>'.$value->group.'</group>';
             echo '</item>';
         }
         echo '</channel>';
         echo '</rss>';
-/*}*/
+}
 exit();
 
 
