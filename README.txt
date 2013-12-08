@@ -1,2 +1,3 @@
-log = gala
+log = root
 pas = root
+see -> rss2
