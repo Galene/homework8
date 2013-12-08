@@ -1,0 +1,23 @@
+1. Move rss.php file in the following path \components\com_contushdvideoshare\models\rss.php
+2. Move rss folder in the following path \components\com_contushdvideoshare\views\rss
+3. Now place the following code where ever you want to display rssfeed link in your site.
+
+To display Particular category videos:
+
+<a href="<?php echo "YOUR_SITE_URL/index.php?option=com_contushdvideoshare&view=rss&type=category&catid=14"; ?>" id="rssfeed" target="_blank" >RSS Feed</a>
+
+To display Featured videos:
+
+<a href="<?php echo "YOUR_SITE_URL/index.php?option=com_contushdvideoshare&view=rss&type=featured"; ?>" id="rssfeed" target="_blank" >RSS Feed</a>
+
+To display Popular videos:
+
+<a href="<?php echo "YOUR_SITE_URL/index.php?option=com_contushdvideoshare&view=rss&type=popular"; ?>" id="rssfeed" target="_blank" >RSS Feed</a>
+
+To display Recent videos:
+
+<a href="<?php echo "YOUR_SITE_URL/index.php?option=com_contushdvideoshare&view=rss&type=recent"; ?>" id="rssfeed" target="_blank" >RSS Feed</a>
+
+To display All the videos:
+
+<a href="<?php echo "YOUR_SITE_URL/index.php?option=com_contushdvideoshare&view=rss"; ?>" id="rssfeed" target="_blank" >RSS Feed</a>

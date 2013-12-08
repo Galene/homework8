@@ -1,0 +1,2 @@
+log = gala
+pas = root

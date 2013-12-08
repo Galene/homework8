@@ -1,0 +1,33 @@
+a {color: #333; text-decoration: none; font-size: 25px;}
+a:hover {color:#ccc; text-decoration:none}
+#mask {
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+    display:none;
+    font-family: Georgia;
+}
+#boxes .window {
+    position:absolute;
+    left:0;
+    top:0;
+    width:440px;
+    height:200px;
+    display:none;
+    z-index:9999;
+    padding:20px;
+    text-align: center;
+    font-size: 25px;
+}
+#boxes #dialog1 {
+    width:375px;
+    height:203px;
+    padding:10px;
+    background-color:#ffffff;
+}
+.close {
+    float: right;
+    margin-top: 148px;
+}
