@@ -24,7 +24,7 @@ class StudentModelRss2 extends jModelList{
         $query->select($this->getState('item.select', 'a.*'));
         $query->from('#__student_ AS a');
 
-        /*return $query;*/
+
         $db->setQuery($query);
         $db_value = $db->loadObjectList();
         $this->getShowxml($db_value);
@@ -33,28 +33,50 @@ class StudentModelRss2 extends jModelList{
 
 
     function getShowxml($db_value){
-        ob_clean();
-        header("Cache-Control:no-cache, must-revalidate");
-        header("Expires: Fr, 10 Dec 2013 10:00:00 GMT");
+        ob_clean();                                         //Удаление содержимого выходного буфера
+        header("Cache-Control:no-cache, must-revalidate");  //Принудительное отключение кэширования
+        header("Expires: Fr, 8 Dec 2013 10:00:00 GMT");     //Дата в прошлом
         header("content-type: text/xml");
+        $mainframe = JFactory::getApplication();
+        $siteName = $mainframe->getCfg('sitename');
+
+        $baseUrl = JURI::base();
+        $baseUrl1 = parse_url($baseUrl);
+        $baseUrl1 = $baseUrl1['scheme'] . '://' . $baseUrl1['host'];
+
+        $current_path = "components/com_student/rss2/";
 
         echo '<?xml version="1.0" encoding="utf-8"?>';
-
         echo '<rss  version="2.0">';
         echo '<channel>';
-        echo '<title>Students List</title>';
+        echo '<title>'.$siteName.'</title>';
         echo '<link>'.JURI::root().'</link>';
         if (count($db_value) > 0){
-            //echo '<br><pre>dsfsdf'; print_r($db_value);
         foreach ($db_value as $value){
+
+            $valueId = (int)$value->id;
+            $photo = $baseUrl1 . JRoute::_($value->photo);
+            $fbPath = $baseUrl1 . JRoute::_('index.php?option=com_student&view=academicachievement&id=' . $valueId);
+
+            $previewimage = JURI::base() . $current_path . $value->photo;
+
+
             echo '<item>';
-            echo '<title>';
-            echo '<![CDATA['.$value->name.']]>';
-            echo '</title>';
+            echo '<title>'; echo '<![CDATA['.$value->name.']]>'; echo '</title>';
+            echo '<link>'. $fbPath.'</link>';
+            echo '<image>';
+            echo '<url>'.$photo.'</url>';
+            echo '</image>';
             echo '<description>';
-            echo '<![CDATA['.$value->id.']]>';
-            echo '<![CDATA[<img src="http://edu.loc/'.$value->photo.'">]]>';
+
+            //echo '<![CDATA[<img src="http://edu.loc/'.$value->photo.'">]]>';
+
+            //echo '<img src='".$value->photo."'/>';
+            //echo '<![CDATA[<img src=".$previewimage.">]]>';
+            //echo '<![CDATA[<img src=".$photo.">]]>';
+
             echo '<![CDATA['.$value->general_information.']]>';
+
             echo '</description>';
             echo '</item>';
         }
