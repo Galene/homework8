@@ -24,7 +24,6 @@ class StudentModelRss2 extends jModelList{
         $query->select($this->getState('item.select', 'a.*'));
         $query->from('#__student_ AS a');
 
-
         $db->setQuery($query);
         $db_value = $db->loadObjectList();
         $this->getShowxml($db_value);
@@ -42,9 +41,9 @@ class StudentModelRss2 extends jModelList{
 
         $baseUrl = JURI::base();
         $baseUrl1 = parse_url($baseUrl);
-        $baseUrl1 = $baseUrl1['scheme'] . '://' . $baseUrl1['host'];
+        $baseUrl1 = $baseUrl1['scheme'] . '://' . $baseUrl1['host'];                    //base URL
 
-        $current_path = "components/com_student/rss2/";
+        //$current_path = "components/com_student/rss2/";
 
         echo '<?xml version="1.0" encoding="utf-8"?>';
         echo '<rss  version="2.0">';
@@ -53,52 +52,29 @@ class StudentModelRss2 extends jModelList{
         echo '<link>'.JURI::root().'</link>';
         if (count($db_value) > 0){
         foreach ($db_value as $value){
-
             $valueId = (int)$value->id;
-            $photo = $baseUrl1 . JRoute::_($value->photo);
             $fbPath = $baseUrl1 . JRoute::_('index.php?option=com_student&view=academicachievement&id=' . $valueId);
 
-            $previewimage = JURI::base() . $current_path . $value->photo;
-
+            //$foto = $value->photo;
+            //$photo = $baseUrl1 . $foto;
+            //$previewimage = JURI::base() . $baseUrl1 . $value->photo;
 
             echo '<item>';
             echo '<title>'; echo '<![CDATA['.$value->name.']]>'; echo '</title>';
             echo '<link>'. $fbPath.'</link>';
-            echo '<image>';
-            echo '<url>'.$photo.'</url>';
-            echo '</image>';
             echo '<description>';
+            //echo '<![CDATA[<img src="http://edu.loc/'.$value->photo.'">]]>';          //1-я версия
 
-            //echo '<![CDATA[<img src="http://edu.loc/'.$value->photo.'">]]>';
-
-            //echo '<img src='".$value->photo."'/>';
-            //echo '<![CDATA[<img src=".$previewimage.">]]>';
-            //echo '<![CDATA[<img src=".$photo.">]]>';
-
+            //echo '<img src="'.$previewimage.'"/>';
+            //echo '<![CDATA[<img src="'.$previewimage.'">]]>';
+            echo '<![CDATA[<img src="'.$baseUrl1 .'/'. $value->photo .'">]]>';          //не хватало слеша ву-ху
             echo '<![CDATA['.$value->general_information.']]>';
-
             echo '</description>';
             echo '</item>';
         }
         echo '</channel>';
-        echo '</rss>';
-}
+        echo '</rss>';}
 exit();
-
-
-
 }
-
-    /*
-    function getrecords(){
-
-        $db = JFactory::getDbo();
-        $query = "select * from #__student_ order by id DESC";
-        $db_value = $db->loadObjectList();
-        $this->showxml($db_value);
-    }*/
-
-
-
 
 }
