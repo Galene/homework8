@@ -1,6 +1,6 @@
 <?php 
 /**
- * @version $Id: default.php 6 2013-01-22 15:31:03Z szymon $
+ * @version $Id: default_form.php 6 2013-01-22 15:31:03Z szymon $
  * @package DJ-ImageSlider
  * @subpackage DJ-ImageSlider Component
  * @copyright Copyright (C) 2012 DJ-Extensions.com, All rights reserved.

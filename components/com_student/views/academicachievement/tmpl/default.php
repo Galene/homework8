@@ -10,8 +10,8 @@
 defined('_JEXEC') or die;
 
 //Load css file
-$doc = & JFactory::getDocument();
-$doc->addStyleSheet(JURI::root(true) . "/components/com_student/style.css");
+$doc = JFactory::getDocument();
+$doc->addStyleSheet(JURI::root(true)."/components/com_student/style.css");
 
 //Load admin language file
 $lang = JFactory::getLanguage();

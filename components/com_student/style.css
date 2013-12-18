@@ -2,7 +2,7 @@
     list-style-type: none;
 }
 
-#main .fields_list h3 {
+#main .fields_list h3,#main .front-end-edit h1 {
     background: #FFFFFF;
     color: #7BA428;
     font-size: 1.4em;
@@ -27,10 +27,37 @@
     padding: 7px 4px 7px 15px;
 
 }
+/*----front-end-edit------*/
+
+#main .front-end-edit ul{
+    padding:0;
+}
+
+#main .front-end-edit li{
+    list-style-type: none;
+    font-weight: bold;
+    margin: 10px;
+
+}
+#main .front-end-edit li fieldset, #main .front-end-edit li .media-preview {
+    padding:0;
+    margin: 5px;
+}
+
+#main .front-end-edit .subbat{
+    padding:10px;
+    clear: left;
+}
+
+#main .front-end-edit .media-preview{
+    display:none;
+
+}
+
 
 /* Styling for making front end forms look OK -->
  This should probably be moved to the template CSS file */
-
+/*
 .front-end-edit ul {
     padding: 0 !important;
 }
@@ -38,7 +65,7 @@
     list-style: none;
     margin-bottom: 6px !important;
 }
-.front-end-edit label {
+.front-end-edit label, .control-group .control-label {
     margin-right: 10px;
     display: block;
     float: left;
@@ -75,3 +102,4 @@
 fieldset.radio label{
     width: 50px !important;
 }
+*/

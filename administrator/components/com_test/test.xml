@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="component" version="2.5" method="upgrade">
     <name>com_test</name>
-    <creationDate>2013-11-23</creationDate>
+    <creationDate>2013-12-10</creationDate>
     <copyright>Copyright (C) 2013. All rights reserved.</copyright>
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <author>Gala</author>
     <authorEmail>galina.ck@gmail.com</authorEmail>
     <authorUrl>http://</authorUrl>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description></description>
     
     <install> <!-- Runs on install -->
@@ -41,7 +41,7 @@
             
 			<menu link="option=com_test&amp;view=testlist" view="testlist" img="components/com_test/assets/images/s_testlist.png" alt="Test/Testlist">COM_TEST_TITLE_TESTLIST</menu>
 
-			<menu link="option=com_test&amp;view=tests" view="tests" img="components/com_test/assets/images/s_tests.png" alt="Test/Tests">COM_TEST_TITLE_TESTS</menu>
+			<menu link="option=com_test&amp;view=test_list_admin_v1ew_plural_name" view="test_list_admin_v1ew_plural_name" img="components/com_test/assets/images/s_test_list_admin_v1ew_plural_name.png" alt="Test/Test_list_admin_v1ew_plural_name">COM_TEST_TITLE_TEST_LIST_ADMIN_V1EW_PLURAL_NAME</menu>
 
         </submenu>
         <files folder="administrator">

@@ -16,6 +16,9 @@ JHtml::_('behavior.formvalidation');
 //Load admin language file
 $lang = JFactory::getLanguage();
 $lang->load('com_student', JPATH_ADMINISTRATOR);
+
+$doc = JFactory::getDocument();
+$doc->addStyleSheet(JURI::root(true)."/components/com_student/style.css");
 ?>
 
 
@@ -55,39 +58,36 @@ $lang->load('com_student', JPATH_ADMINISTRATOR);
     <?php if (!empty($this->item->id)): ?>
         <h1>Edit <?php echo $this->item->id; ?></h1>
     <?php else: ?>
-        <h1>Add</h1>
+        <h1>Enter information about  student:</h1>
     <?php endif; ?>
 
     <form id="form-academicachievement" action="<?php echo JRoute::_('index.php?option=com_student&task=academicachievement.save'); ?>" method="post" class="form-validate" enctype="multipart/form-data">
         <ul>
-            				<input type="hidden" name="jform[id]" value="<?php echo $this->item->id; ?>" />
-				<li><?php echo $this->form->getLabel('name'); ?>
-				<?php echo $this->form->getInput('name'); ?></li>
-				<input type="hidden" name="jform[ordering]" value="<?php echo $this->item->ordering; ?>" />
-				<li><?php echo $this->form->getLabel('general_information'); ?>
-				<?php echo $this->form->getInput('general_information'); ?></li>
-				<li><?php echo $this->form->getLabel('sex'); ?>
-				<?php echo $this->form->getInput('sex'); ?></li>
-				<li><?php echo $this->form->getLabel('date_of_birth'); ?>
-				<?php echo $this->form->getInput('date_of_birth'); ?></li>
-				<li><?php echo $this->form->getLabel('group'); ?>
-				<?php echo $this->form->getInput('group'); ?></li>
-				<li><?php echo $this->form->getLabel('student_credit_book'); ?>
-				<?php echo $this->form->getInput('student_credit_book'); ?></li>
-				<li><?php echo $this->form->getLabel('the_average_score'); ?>
-				<?php echo $this->form->getInput('the_average_score'); ?></li>
-				<li><?php echo $this->form->getLabel('photo'); ?>
-				<?php echo $this->form->getInput('photo'); ?></li>
+            	<input type="hidden" name="jform[id]" value="<?php echo $this->item->id; ?>" />
+                <input type="hidden" name="jform[ordering]" value="<?php echo $this->item->ordering; ?>" />
+				<li><?php echo $this->form->getLabel('name'); ?><br>
+                    <?php echo $this->form->getInput('name'); ?></li>
+                <li ><?php echo $this->form->getLabel('general_information'); ?>
+                    <?php echo $this->form->getInput('general_information'); ?></li>
+				<li style="clear: left"><?php echo $this->form->getLabel('sex'); ?>
+                    <?php echo $this->form->getInput('sex'); ?></li>
+				<li><?php echo $this->form->getLabel('date_of_birth'); ?><br>
+                    <?php echo $this->form->getInput('date_of_birth'); ?></li>
+				<li><?php echo $this->form->getLabel('group'); ?><br>
+                    <?php echo $this->form->getInput('group'); ?></li>
+				<li><?php echo $this->form->getLabel('student_credit_book'); ?><br>
+                    <?php echo $this->form->getInput('student_credit_book'); ?></li>
+				<li><?php echo $this->form->getLabel('the_average_score'); ?><br>
+                    <?php echo $this->form->getInput('the_average_score'); ?></li>
+				<li><?php echo $this->form->getLabel('photo'); ?><br>
+                    <?php echo $this->form->getInput('photo'); ?></li>
 
-				<?php if(empty($this->item->created_by)){ ?>
-					<input type="hidden" name="jform[created_by]" value="<?php echo JFactory::getUser()->id; ?>" />
-
-				<?php } 
-				else{ ?>
-					<input type="hidden" name="jform[created_by]" value="<?php echo $this->item->created_by; ?>" />
-
-				<?php } ?>				<?php $canState = false; ?>
-					<?php $canState = $canState = JFactory::getUser()->authorise('core.edit.state','com_student'); ?>				<?php if(!$canState): ?>
+				<?php if(empty($this->item->created_by)){?><input type="hidden" name="jform[created_by]" value="<?php echo JFactory::getUser()->id; ?>" />	<?php }
+				    else{?><input type="hidden" name="jform[created_by]" value="<?php echo $this->item->created_by; ?>" /><?php } ?>
+            <!--
+            <?php $canState = false; ?>
+			<?php $canState = $canState = JFactory::getUser()->authorise('core.edit.state','com_student'); ?>
+            <?php if(!$canState): ?>
 					<li><?php echo $this->form->getLabel('state'); ?>
 					<?php
 						$state_string = 'Unpublish';
@@ -99,16 +99,17 @@ $lang->load('com_student', JPATH_ADMINISTRATOR);
 						echo $state_string; ?></li>
 					<input type="hidden" name="jform[state]" value="<?php echo $state_value; ?>" />				<?php else: ?>					<li><?php echo $this->form->getLabel('state'); ?>
 					<?php echo $this->form->getInput('state'); ?></li>
-				<?php endif; ?>
+				<?php endif; ?>-->
         </ul>
 
-        <div>
+        <div class="subbat">
             <button type="submit" class="validate"><span><?php echo JText::_('JSUBMIT'); ?></span></button>
             <?php echo JText::_('or'); ?>
             <a href="<?php echo JRoute::_('index.php?option=com_student&task=academicachievement.cancel'); ?>" title="<?php echo JText::_('JCANCEL'); ?>"><?php echo JText::_('JCANCEL'); ?></a>
 
             <input type="hidden" name="option" value="com_student" />
             <input type="hidden" name="task" value="academicachievementform.save" />
+
             <?php echo JHtml::_('form.token'); ?>
         </div>
     </form>

@@ -22,7 +22,7 @@ defined('_JEXEC') or die;
 <?php $show = false; ?>
         <?php foreach ($this->items as $item) : ?>
 
-            
+
 				<?php
 					if($item->state == 1 || ($item->state == 0 && JFactory::getUser()->authorise('core.edit.own',' com_student'))):
 						$show = true;

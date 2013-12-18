@@ -1,6 +1,6 @@
 <?php
 /**
- * @version     1.0.0
+ * @version     1.0.1
  * @package     com_test
  * @copyright   Copyright (C) 2013. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -60,7 +60,7 @@ class TestViewTestlist extends JView
 		{
 			$this->params->def('page_heading', $this->params->get('page_title', $menu->title));
 		} else {
-			$this->params->def('page_heading', JText::_('com_test_DEFAULT_PAGE_TITLE'));
+			$this->params->def('page_heading', JText::_('COM_TEST_DEFAULT_PAGE_TITLE'));
 		}
 		$title = $this->params->get('page_title', '');
 		if (empty($title)) {

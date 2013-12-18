@@ -1,6 +1,6 @@
 <?php
 /**
- * @version     1.0.0
+ * @version     1.0.1
  * @package     com_test
  * @copyright   Copyright (C) 2013. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -15,7 +15,7 @@ jimport('joomla.application.component.modeladmin');
 /**
  * Test model.
  */
-class TestModeltestform extends JModelAdmin
+class TestModelTestform extends JModelAdmin
 {
 	/**
 	 * @var		string	The prefix to use with controller messages.

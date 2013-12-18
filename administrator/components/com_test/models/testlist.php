@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @version     1.0.0
+ * @version     1.0.1
  * @package     com_test
  * @copyright   Copyright (C) 2013. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -14,7 +14,7 @@ jimport('joomla.application.component.modellist');
 /**
  * Methods supporting a list of Test records.
  */
-class TestModeltestlist extends JModelList {
+class TestModelTestlist extends JModelList {
 
     /**
      * Constructor.

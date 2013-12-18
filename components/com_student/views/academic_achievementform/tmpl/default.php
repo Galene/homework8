@@ -106,8 +106,9 @@ $lang->load('com_student', JPATH_ADMINISTRATOR);
     <?php endif; ?>
 
     <form id="form-academic_achievement" action="<?php echo JRoute::_('index.php?option=com_student&task=academic_achievement.save'); ?>" method="post" class="form-validate" enctype="multipart/form-data">
+
         <ul>
-            
+
         </ul>
 
         <div>

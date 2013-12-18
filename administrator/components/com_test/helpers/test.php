@@ -1,6 +1,6 @@
 <?php
 /**
- * @version     1.0.0
+ * @version     1.0.1
  * @package     com_test
  * @copyright   Copyright (C) 2013. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -26,9 +26,9 @@ class TestHelper
 			$vName == 'testlist'
 		);
 		JSubMenuHelper::addEntry(
-			JText::_('COM_TEST_TITLE_TESTS'),
-			'index.php?option=com_test&view=tests',
-			$vName == 'tests'
+			JText::_('COM_TEST_TITLE_TEST_LIST_ADMIN_V1EW_PLURAL_NAME'),
+			'index.php?option=com_test&view=test_list_admin_v1ew_plural_name',
+			$vName == 'test_list_admin_v1ew_plural_name'
 		);
 
 	}

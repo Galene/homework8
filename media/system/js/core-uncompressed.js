@@ -78,7 +78,7 @@ Joomla.replaceTokens = function(n) {
 };
 
 /**
- * USED IN: administrator/components/com_banners/views/client/tmpl/default.php
+ * USED IN: administrator/components/com_banners/views/client/tmpl/default_form.php
  *
  * Verifies if the string is in a valid email format
  *
@@ -173,7 +173,7 @@ Joomla.removeMessages = function() {
 }
 
 /**
- * USED IN: administrator/components/com_cache/views/cache/tmpl/default.php
+ * USED IN: administrator/components/com_cache/views/cache/tmpl/default_form.php
  * administrator/components/com_installer/views/discover/tmpl/default_item.php
  * administrator/components/com_installer/views/update/tmpl/default_item.php
  * administrator/components/com_languages/helpers/html/languages.php
@@ -235,7 +235,7 @@ Joomla.tableOrdering = function(order, dir, task, form) {
 }
 
 /**
- * USED IN: administrator/components/com_modules/views/module/tmpl/default.php
+ * USED IN: administrator/components/com_modules/views/module/tmpl/default_form.php
  *
  * Writes a dynamically generated list
  *
@@ -310,7 +310,7 @@ function changeDynaList(listname, source, key, orig_key, orig_val) {
 }
 
 /**
- * USED IN: administrator/components/com_menus/views/menus/tmpl/default.php
+ * USED IN: administrator/components/com_menus/views/menus/tmpl/default_form.php
  *
  * @param radioObj
  * @return
@@ -340,14 +340,14 @@ function radioGetCheckedValue(radioObj) {
 
 /**
  * USED IN: administrator/components/com_banners/views/banner/tmpl/default/php
- * administrator/components/com_categories/views/category/tmpl/default.php
- * administrator/components/com_categories/views/copyselect/tmpl/default.php
- * administrator/components/com_content/views/copyselect/tmpl/default.php
- * administrator/components/com_massmail/views/massmail/tmpl/default.php
+ * administrator/components/com_categories/views/category/tmpl/default_form.php
+ * administrator/components/com_categories/views/copyselect/tmpl/default_form.php
+ * administrator/components/com_content/views/copyselect/tmpl/default_form.php
+ * administrator/components/com_massmail/views/massmail/tmpl/default_form.php
  * administrator/components/com_menus/views/list/tmpl/copy.php
  * administrator/components/com_menus/views/list/tmpl/move.php
  * administrator/components/com_messages/views/message/tmpl/default_form.php
- * administrator/components/com_newsfeeds/views/newsfeed/tmpl/default.php
+ * administrator/components/com_newsfeeds/views/newsfeed/tmpl/default_form.php
  * components/com_content/views/article/tmpl/form.php
  * templates/beez/html/com_content/article/form.php
  *
@@ -444,7 +444,7 @@ function listItemTask(id, task) {
 }
 
 /**
- * USED IN: administrator/components/com_cache/views/cache/tmpl/default.php
+ * USED IN: administrator/components/com_cache/views/cache/tmpl/default_form.php
  * administrator/components/com_installer/views/discover/tmpl/default_item.php
  * administrator/components/com_installer/views/update/tmpl/default_item.php
  * administrator/components/com_languages/helpers/html/languages.php
