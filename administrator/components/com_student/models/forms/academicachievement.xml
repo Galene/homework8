@@ -15,9 +15,19 @@
                  required="true" 
             class="name"
             filter="string"
-            maxlength="10" /> 
+            maxlength="10" />
 
-       <field name="general_information" type="editor"
+        <field name="email" type="text"
+
+               label="COM_STUDENT_FORM_LBL_ACADEMICACHIEVEMENT_EMAIL"
+               description="COM_STUDENT_FORM_DESC_ACADEMICACHIEVEMENT_EMAIL"
+               default="Email"
+
+
+               filter="safehtml"
+               maxlength="50" />
+
+        <field name="general_information" type="editor"
                 
             label="COM_STUDENT_FORM_LBL_ACADEMICACHIEVEMENT_GENERAL_INFORMATION"
             description="COM_STUDENT_FORM_DESC_ACADEMICACHIEVEMENT_GENERAL_INFORMATION" 

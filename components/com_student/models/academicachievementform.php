@@ -187,7 +187,7 @@ class StudentModelAcademicachievementForm extends JModelForm
 	public function getForm($data = array(), $loadData = true)
 	{
 		// Get the form.
-		$form = $this->loadForm('com_student.academicachievement', 'academicachievementform', array('control' => 'jform', 'load_data' => $loadData));
+		$form = $this->loadForm('com_student.academicachievement', 'form', array('control' => 'jform', 'load_data' => $loadData));
 		if (empty($form)) {
 			return false;
 		}

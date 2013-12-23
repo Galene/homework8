@@ -32,38 +32,88 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/components/com_test/views/tests/tmpl/default.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/components/com_test/views/tests/tmpl/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/components/com_test/views/tests/view.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/form/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/form/tmpl/default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/form/tmpl/default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/form/tmpl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/form/view.html.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/assets/images/l_academicachievements.png" afterPath="$PROJECT_DIR$/administrator/components/com_student/assets/images/l_academicachievements.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/assets/images/l_com_student.png" afterPath="$PROJECT_DIR$/administrator/components/com_student/assets/images/l_com_student.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/assets/images/l_com_test.png" afterPath="$PROJECT_DIR$/administrator/components/com_test/assets/images/l_com_test.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/assets/images/l_test_list_admin_v1ew_plural_name.png" afterPath="$PROJECT_DIR$/administrator/components/com_test/assets/images/l_test_list_admin_v1ew_plural_name.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/assets/images/l_testlist.png" afterPath="$PROJECT_DIR$/administrator/components/com_test/assets/images/l_testlist.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/assets/images/s_academicachievements.png" afterPath="$PROJECT_DIR$/administrator/components/com_student/assets/images/s_academicachievements.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/assets/images/s_com_student.png" afterPath="$PROJECT_DIR$/administrator/components/com_student/assets/images/s_com_student.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/assets/images/s_com_test.png" afterPath="$PROJECT_DIR$/administrator/components/com_test/assets/images/s_com_test.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/assets/images/s_test_list_admin_v1ew_plural_name.png" afterPath="$PROJECT_DIR$/administrator/components/com_test/assets/images/s_test_list_admin_v1ew_plural_name.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/assets/images/s_testlist.png" afterPath="$PROJECT_DIR$/administrator/components/com_test/assets/images/s_testlist.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/controllers/academicachievement.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/controllers/academicachievement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/models/academicachievement.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/models/academicachievement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/tables/academicachievement.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/tables/academicachievement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/models/forms/academicachievement.xml" afterPath="$PROJECT_DIR$/administrator/components/com_student/models/forms/academicachievement.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student/models/forms/academicachievement.xml" afterPath="$PROJECT_DIR$/components/com_student/models/forms/academicachievement.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student/models/academicachievementform.php" afterPath="$PROJECT_DIR$/components/com_student/models/academicachievementform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student/models/forms/academicachievementform.xml" afterPath="$PROJECT_DIR$/components/com_student/models/forms/academicachievementform.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/controllers/academicachievements.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/controllers/academicachievements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/models/academicachievements.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/models/academicachievements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/access.xml" afterPath="$PROJECT_DIR$/administrator/components/com_student/access.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/access.xml" afterPath="$PROJECT_DIR$/administrator/components/com_test/access.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/config.xml" afterPath="$PROJECT_DIR$/administrator/components/com_student/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/config.xml" afterPath="$PROJECT_DIR$/administrator/components/com_test/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/controller.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/controller.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/controller.php" afterPath="$PROJECT_DIR$/components/com_test/controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/system/js/core-uncompressed.js" afterPath="$PROJECT_DIR$/media/system/js/core-uncompressed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/models/fields/createdby.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/models/fields/createdby.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/models/fields/createdby.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/models/fields/createdby.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/models/fields/createdby.php" afterPath="$PROJECT_DIR$/components/com_test/models/fields/createdby.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/models/fields/custom_field.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/models/fields/custom_field.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/models/fields/custom_field.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/models/fields/custom_field.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_djimageslider/views/cpanel/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_djimageslider/views/cpanel/tmpl/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_djimageslider/views/items/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_djimageslider/views/items/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievements/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievements/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/test_list_admin_v1ew_plural_name/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/test_list_admin_v1ew_plural_name/tmpl/default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/testlist/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/testlist/tmpl/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student/views/academic_achievementform/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_student/views/academic_achievementform/tmpl/default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student/views/academicachievement/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_student/views/academicachievement/tmpl/default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student/views/academicachievementform/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_student/views/academicachievementform/tmpl/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student/views/academicachievements/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_student/views/academicachievements/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_display/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_display/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_displayform/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_displayform/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_list_admin_v1ew_plural_name/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_test/views/test_list_admin_v1ew_plural_name/tmpl/default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testform/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_test/views/testform/tmpl/default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testformform/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_test/views/testformform/tmpl/default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testlist/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_test/views/testlist/tmpl/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mod_itf_call_me_back/tmpl/default.php" afterPath="$PROJECT_DIR$/modules/mod_itf_call_me_back/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_display/tmpl/default.xml" afterPath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_display/tmpl/default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_displayform/tmpl/default.xml" afterPath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_displayform/tmpl/default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_list_admin_v1ew_plural_name/tmpl/default.xml" afterPath="$PROJECT_DIR$/components/com_test/views/test_list_admin_v1ew_plural_name/tmpl/default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testform/tmpl/default.xml" afterPath="$PROJECT_DIR$/components/com_test/views/testform/tmpl/default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testformform/tmpl/default.xml" afterPath="$PROJECT_DIR$/components/com_test/views/testformform/tmpl/default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testlist/tmpl/default.xml" afterPath="$PROJECT_DIR$/components/com_test/views/testlist/tmpl/default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievement/tmpl/edit.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievement/tmpl/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/test_form_admin_v1ew_display/tmpl/edit.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/test_form_admin_v1ew_display/tmpl/edit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/testform/tmpl/edit.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/testform/tmpl/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edu1.sql" afterPath="$PROJECT_DIR$/edu1.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_student.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_student.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/en-GB/en-GB.com_student.ini" afterPath="$PROJECT_DIR$/language/en-GB/en-GB.com_student.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_student.sys.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_student.sys.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_test.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_test.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/en-GB/en-GB.com_test.ini" afterPath="$PROJECT_DIR$/language/en-GB/en-GB.com_test.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_test.sys.ini" afterPath="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_test.sys.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/joomla/application/module/helper.php" afterPath="$PROJECT_DIR$/libraries/joomla/application/module/helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student/models/form.php" afterPath="$PROJECT_DIR$/components/com_student/models/form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student/models/forms/form.xml" afterPath="$PROJECT_DIR$/components/com_student/models/forms/form.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/assets/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/assets/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/assets/css/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/assets/css/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/assets/images/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/assets/images/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/controllers/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/controllers/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/helpers/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/helpers/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/models/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/models/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/models/fields/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/models/fields/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/models/forms/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/models/forms/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/sql/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/sql/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/tables/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/tables/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/views/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/views/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievement/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievement/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievement/tmpl/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievement/tmpl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievements/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievements/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievements/tmpl/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievements/tmpl/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_test/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/assets/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_test/assets/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/assets/css/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_test/assets/css/index.html" />
@@ -76,6 +126,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/sql/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_test/sql/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/tables/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_test/tables/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/test_form_admin_v1ew_display/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/test_form_admin_v1ew_display/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/test_form_admin_v1ew_display/tmpl/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/test_form_admin_v1ew_display/tmpl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/test_list_admin_v1ew_plural_name/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/test_list_admin_v1ew_plural_name/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/test_list_admin_v1ew_plural_name/tmpl/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/test_list_admin_v1ew_plural_name/tmpl/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/testform/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/testform/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/testform/tmpl/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/testform/tmpl/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/testlist/index.html" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/testlist/index.html" />
@@ -87,14 +141,25 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/models/fields/index.html" afterPath="$PROJECT_DIR$/components/com_test/models/fields/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/models/forms/index.html" afterPath="$PROJECT_DIR$/components/com_test/models/forms/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/index.html" afterPath="$PROJECT_DIR$/components/com_test/views/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_display/index.html" afterPath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_display/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_display/tmpl/index.html" afterPath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_display/tmpl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_displayform/index.html" afterPath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_displayform/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_displayform/tmpl/index.html" afterPath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_displayform/tmpl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_list_admin_v1ew_plural_name/index.html" afterPath="$PROJECT_DIR$/components/com_test/views/test_list_admin_v1ew_plural_name/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_list_admin_v1ew_plural_name/tmpl/index.html" afterPath="$PROJECT_DIR$/components/com_test/views/test_list_admin_v1ew_plural_name/tmpl/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testform/index.html" afterPath="$PROJECT_DIR$/components/com_test/views/testform/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testform/tmpl/index.html" afterPath="$PROJECT_DIR$/components/com_test/views/testform/tmpl/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testformform/index.html" afterPath="$PROJECT_DIR$/components/com_test/views/testformform/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testformform/tmpl/index.html" afterPath="$PROJECT_DIR$/components/com_test/views/testformform/tmpl/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testlist/index.html" afterPath="$PROJECT_DIR$/components/com_test/views/testlist/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testlist/tmpl/index.html" afterPath="$PROJECT_DIR$/components/com_test/views/testlist/tmpl/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/sql/install.mysql.utf8.sql" afterPath="$PROJECT_DIR$/administrator/components/com_student/sql/install.mysql.utf8.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/sql/install.mysql.utf8.sql" afterPath="$PROJECT_DIR$/administrator/components/com_test/sql/install.mysql.utf8.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/router.php" afterPath="$PROJECT_DIR$/components/com_test/router.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/assets/css/student.css" afterPath="$PROJECT_DIR$/administrator/components/com_student/assets/css/student.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/student.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/student.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/helpers/student.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/helpers/student.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/student.xml" afterPath="$PROJECT_DIR$/administrator/components/com_student/student.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student/style.css" afterPath="$PROJECT_DIR$/components/com_student/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/assets/css/test.css" afterPath="$PROJECT_DIR$/administrator/components/com_test/assets/css/test.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/test.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/test.php" />
@@ -102,6 +167,19 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/test.php" afterPath="$PROJECT_DIR$/components/com_test/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/helpers/test.php" afterPath="$PROJECT_DIR$/components/com_test/helpers/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/test.xml" afterPath="$PROJECT_DIR$/administrator/components/com_test/test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/controllers/test_form_admin_v1ew_display.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/controllers/test_form_admin_v1ew_display.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/models/test_form_admin_v1ew_display.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/models/test_form_admin_v1ew_display.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/controllers/test_form_admin_v1ew_display.php" afterPath="$PROJECT_DIR$/components/com_test/controllers/test_form_admin_v1ew_display.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/models/test_form_admin_v1ew_display.php" afterPath="$PROJECT_DIR$/components/com_test/models/test_form_admin_v1ew_display.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/models/forms/test_form_admin_v1ew_display.xml" afterPath="$PROJECT_DIR$/administrator/components/com_test/models/forms/test_form_admin_v1ew_display.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/models/forms/test_form_admin_v1ew_display.xml" afterPath="$PROJECT_DIR$/components/com_test/models/forms/test_form_admin_v1ew_display.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/controllers/test_form_admin_v1ew_displayform.php" afterPath="$PROJECT_DIR$/components/com_test/controllers/test_form_admin_v1ew_displayform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/models/test_form_admin_v1ew_displayform.php" afterPath="$PROJECT_DIR$/components/com_test/models/test_form_admin_v1ew_displayform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/models/forms/test_form_admin_v1ew_displayform.xml" afterPath="$PROJECT_DIR$/components/com_test/models/forms/test_form_admin_v1ew_displayform.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/controllers/test_list_admin_v1ew_plural_name.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/controllers/test_list_admin_v1ew_plural_name.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/models/test_list_admin_v1ew_plural_name.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/models/test_list_admin_v1ew_plural_name.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/controllers/test_list_admin_v1ew_plural_name.php" afterPath="$PROJECT_DIR$/components/com_test/controllers/test_list_admin_v1ew_plural_name.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/models/test_list_admin_v1ew_plural_name.php" afterPath="$PROJECT_DIR$/components/com_test/models/test_list_admin_v1ew_plural_name.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/controllers/testform.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/controllers/testform.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/models/testform.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/models/testform.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/tables/testform.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/tables/testform.php" />
@@ -116,13 +194,23 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/models/testlist.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/models/testlist.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/controllers/testlist.php" afterPath="$PROJECT_DIR$/components/com_test/controllers/testlist.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/models/testlist.php" afterPath="$PROJECT_DIR$/components/com_test/models/testlist.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/models/fields/timecreated.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/models/fields/timecreated.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/models/fields/timecreated.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/models/fields/timecreated.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/models/fields/timecreated.php" afterPath="$PROJECT_DIR$/components/com_test/models/fields/timecreated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/models/fields/timeupdated.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/models/fields/timeupdated.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/models/fields/timeupdated.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/models/fields/timeupdated.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/models/fields/timeupdated.php" afterPath="$PROJECT_DIR$/components/com_test/models/fields/timeupdated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/sql/uninstall.mysql.utf8.sql" afterPath="$PROJECT_DIR$/administrator/components/com_student/sql/uninstall.mysql.utf8.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/sql/uninstall.mysql.utf8.sql" afterPath="$PROJECT_DIR$/administrator/components/com_test/sql/uninstall.mysql.utf8.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievement/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievement/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievements/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_student/views/academicachievements/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/test_form_admin_v1ew_display/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/test_form_admin_v1ew_display/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/test_list_admin_v1ew_plural_name/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/test_list_admin_v1ew_plural_name/view.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/testform/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/testform/view.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_test/views/testlist/view.html.php" afterPath="$PROJECT_DIR$/administrator/components/com_test/views/testlist/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_display/view.html.php" afterPath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_display/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_displayform/view.html.php" afterPath="$PROJECT_DIR$/components/com_test/views/test_form_admin_v1ew_displayform/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/test_list_admin_v1ew_plural_name/view.html.php" afterPath="$PROJECT_DIR$/components/com_test/views/test_list_admin_v1ew_plural_name/view.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testform/view.html.php" afterPath="$PROJECT_DIR$/components/com_test/views/testform/view.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testformform/view.html.php" afterPath="$PROJECT_DIR$/components/com_test/views/testformform/view.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_test/views/testlist/view.html.php" afterPath="$PROJECT_DIR$/components/com_test/views/testlist/view.html.php" />
@@ -130,10 +218,10 @@
     </list>
     <ignored path="edu.loc.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1387355012330" ignored="false" />
+    <file path="/Dummy.txt" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1387810853314" ignored="false" />
     <file path="/mod_ww_statti.xml" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1384364557375" ignored="false" />
     <file path="/mod_ww_statti.php" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1384166270092" ignored="false" />
-    <file path="/default.php" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1387373878340" ignored="false" />
+    <file path="/default.php" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1387818949959" ignored="false" />
     <file path="/mod_ww_popup.xml" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1384252116471" ignored="false" />
     <file path="/popup.js" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1384343006320" ignored="false" />
     <file path="/mod_ww_popup2.php" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1384259171248" ignored="false" />
@@ -149,10 +237,13 @@
     <file path="/rss.php" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1386451355707" ignored="false" />
     <file path="/academicachievementform.php" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1387129830173" ignored="false" />
     <file path="/view.html.php" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1387358172359" ignored="false" />
-    <file path="/default.xml" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1387203806774" ignored="false" />
+    <file path="/default.xml" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1387443950768" ignored="false" />
     <file path="/rss2.php" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1386623097294" ignored="false" />
-    <file path="/README.txt" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1386528909058" ignored="false" />
+    <file path="/README.txt" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1387820238143" ignored="false" />
     <file path="/form.php" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1387206195839" ignored="false" />
+    <file path="/academicachievement.xml" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1387816053539" ignored="false" />
+    <file path="/en-GB.com_student.ini" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1387816941676" ignored="false" />
+    <file path="/academicachievementform.xml" changelist="be53ceb6-81aa-4e3f-a907-753def918a49" time="1387819909639" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,30 +263,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/com_student/views/academicachievementform/tmpl/default.php">
+      <file leaf-file-name="academicachievement.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/administrator/components/com_student/models/forms/academicachievement.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="25" selection-start="772" selection-end="772" vertical-scroll-proportion="0.33783785">
-              <folding>
-                <element signature="n#style#0;n#li#2;n#ul#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="academicachievementform.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_student/models/academicachievementform.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="7" selection-start="516" selection-end="516" vertical-scroll-proportion="92.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_student/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="16" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
+            <state line="40" column="37" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.85348505">
               <folding />
             </state>
           </provider>
@@ -219,22 +290,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README.txt" />
-        <option value="$PROJECT_DIR$/components/com_student/views/rss2/view.html.php" />
-        <option value="$PROJECT_DIR$/components/com_student/models/rss2.php" />
-        <option value="$PROJECT_DIR$/components/com_student/views/academic_achievementform/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/components/com_student/views/academicachievements/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/components/com_student/models/academicachievementform.php" />
-        <option value="$PROJECT_DIR$/components/com_student/views/academicachievementform/tmpl/default.xml" />
-        <option value="$PROJECT_DIR$/components/com_student/models/forms/form.xml" />
-        <option value="$PROJECT_DIR$/components/com_student/models/form.php" />
-        <option value="$PROJECT_DIR$/components/com_student/views/form/tmpl/default.xml" />
         <option value="$PROJECT_DIR$/components/com_student/views/form/tmpl/default_form.php" />
+        <option value="$PROJECT_DIR$/components/com_student/views/form/tmpl/default.xml" />
+        <option value="$PROJECT_DIR$/components/com_student/models/form.php" />
         <option value="$PROJECT_DIR$/components/com_student/views/form/view.html.php" />
-        <option value="$PROJECT_DIR$/components/com_student/views/form/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/components/com_student/views/academicachievement/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/components/com_student/views/academicachievementform/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/components/com_student/models/academicachievementform.php" />
         <option value="$PROJECT_DIR$/components/com_student/style.css" />
+        <option value="$PROJECT_DIR$/administrator/language/en-GB/en-GB.com_student.ini" />
+        <option value="$PROJECT_DIR$/administrator/components/com_student/views/academicachievement/tmpl/edit.php" />
+        <option value="$PROJECT_DIR$/components/com_student/views/academicachievement/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/components/com_student/models/forms/academicachievement.xml" />
+        <option value="$PROJECT_DIR$/components/com_student/views/form/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/components/com_student/views/academicachievementform/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/components/com_student/models/forms/academicachievementform.xml" />
+        <option value="$PROJECT_DIR$/components/com_student/models/forms/form.xml" />
+        <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/administrator/components/com_student/models/forms/academicachievement.xml" />
       </list>
     </option>
   </component>
@@ -287,6 +358,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,7 +387,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,11 +401,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mod_ww_statti" />
+              <option name="myItemId" value="administrator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,65 +415,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mod_ww_statti" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tmpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mod_ww_popup3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mod_ww_popup3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tmpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.loc" />
+              <option name="myItemId" value="administrator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -420,6 +430,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="edu.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -441,81 +455,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_student" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_student" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="academicachievement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_student" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="academicachievement" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tmpl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.loc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edu.loc" />
+              <option name="myItemId" value="administrator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -531,19 +471,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu.loc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_student" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fields" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../svitanok.ck.ua" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -604,14 +573,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="25" width="1444" height="877" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739726" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20659971" sideWeight="0.6726027" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21520804" sideWeight="0.6726027" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -620,6 +588,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739726" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -689,117 +658,115 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/com_student/models/forms/academicachievement.xml">
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_student/models/academicachievement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="12" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.8881987">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student/views/academicachievement/tmpl/default.xml">
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_student/views/academicachievement/view.html.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student/views/academicachievements/view.html.php">
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_student/views/academicachievement/tmpl/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="64" selection-start="2791" selection-end="2791" vertical-scroll-proportion="0.6981982">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student/views/academic_achievements/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student/controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_ww_statti/mod_ww_statti.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_ww_statti/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_ww_statti/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_ww_popup3/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="86" selection-start="78" selection-end="196" vertical-scroll-proportion="0.0913242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student/views/academicachievements/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student/student.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student/views/academicachievementform/view.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="55" selection-start="836" selection-end="836" vertical-scroll-proportion="0.66210043">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_student/views/academicachievement/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="16" selection-start="2199" selection-end="2229" vertical-scroll-proportion="-21.5">
+        <state line="73" column="82" selection-start="3991" selection-end="3991" vertical-scroll-proportion="0.42792794">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student/views/academicachievement/view.html.php">
+    <entry file="file://$PROJECT_DIR$/components/com_student/models/forms/academicachievement.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3858615">
+        <state line="18" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.38406828">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student/style.css">
+    <entry file="file://$PROJECT_DIR$/components/com_student/models/forms/academic_achievementform.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="16" selection-start="822" selection-end="822" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student/models/academicachievements.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_student/models/academicachievementform.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="7" selection-start="516" selection-end="516" vertical-scroll-proportion="92.5">
+        <state line="177" column="37" selection-start="4646" selection-end="4650" vertical-scroll-proportion="-4.4489794">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student/models/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="47" selection-start="2945" selection-end="2945" vertical-scroll-proportion="0.40214068">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="45" selection-start="67" selection-end="67" vertical-scroll-proportion="0.042674255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student/models/forms/form.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="32" selection-start="961" selection-end="961" vertical-scroll-proportion="0.5974395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student/models/forms/academicachievementform.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="27" selection-start="977" selection-end="977" vertical-scroll-proportion="0.5974395">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_student/views/academicachievementform/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="25" selection-start="772" selection-end="772" vertical-scroll-proportion="0.33783785">
-          <folding>
-            <element signature="n#style#0;n#li#2;n#ul#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="63" column="8" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.21621622">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student/views/form/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="14" selection-start="3098" selection-end="3098" vertical-scroll-proportion="0.92783505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_student/models/forms/academicachievement.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="37" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.85348505">
+          <folding />
         </state>
       </provider>
     </entry>

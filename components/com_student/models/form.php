@@ -11,31 +11,116 @@
 defined('_JEXEC') or die;
 
 jimport('joomla.application.component.modelform');
+jimport('joomla.event.dispatcher');
 
-//JFormHelper::loadFieldClass('list');
 
-//class JFormFieldHelloWorld extends JFormFieldList
-
-class StudentModelForm extends jModelForm{
-
-    function getForm($data = array(), $loadData = true)
+class StudentModelForm extends jModelForm
+{
+    protected function populateState()
     {
-echo 'qwer';
+        $app = JFactory::getApplication('com_student');
+
+        // Load state from the request userState on edit or from the passed variable on default
+            $id = JFactory::getApplication()->input->get('id');
+            JFactory::getApplication()->setUserState('com_student.edit.academicachievement.id', $id);
+
+        $this->setState('academicachievement.id', $id);
+
+        // Load the parameters.
+        $params = $app->getParams();
+        $params_array = $params->toArray();
+        if(isset($params_array['item_id'])){
+            $this->setState('academicachievement.id', $params_array['item_id']);
+        }
+        $this->setState('params', $params);
+
+    }
+
+    public function &getData($id = null)
+    {
+        if ($this->_item === null)
+        {
+            $this->_item = false;
+
+            if (empty($id)) {
+                $id = $this->getState('academicachievement.id');
+            }
+
+            // Get a level row instance.
+            $table = $this->getTable();
+
+            // Attempt to load the row.
+            if ($table->load($id))
+            {
+
+                $user = JFactory::getUser();
+                $id = $table->id;
+                $canEdit = $user->authorise('core.edit', 'com_student') || $user->authorise('core.create', 'com_student');
+                if (!$canEdit && $user->authorise('core.edit.own', 'com_student')) {
+                    $canEdit = $user->id == $table->created_by;
+                }
+
+                // Check published state.
+                if ($published = $this->getState('filter.published'))
+                {
+                    if ($table->state != $published) {
+                        return $this->_item;
+                    }
+                }
+
+                // Convert the JTable to a clean JObject.
+                $properties = $table->getProperties(1);
+                $this->_item = JArrayHelper::toObject($properties, 'JObject');
+            } elseif ($error = $table->getError()) {
+                $this->setError($error);
+            }
+        }
+
+        return $this->_item;
+    }
+
+    public function getTable($type = 'Academicachievement', $prefix = 'StudentTable', $config = array())
+    {
+        $this->addTablePath(JPATH_COMPONENT_ADMINISTRATOR.'/tables');
+        return JTable::getInstance($type, $prefix, $config);
+    }
+
+    public function getForm($data = array(), $loadData = true)
+    {
+        // Get the form.
+        $form = $this->loadForm('com_student.form', 'form', array('control' => 'jform', 'load_data' => $loadData));
+        if (empty($form)) {
+            return false;
+        }
+        return $form;
     }
 
 
-    function submit()
+    protected function loadFormData()
     {
-        $mainframe = JFactory::getApplication();
-        $params = clone($mainframe->getParams('com_student'));
-        // Initialize some variables
-        $db			= JFactory::getDBO();
-        $SiteName	= JURI::base();
-        $uri64		= JRequest::getVar( 'code2',				'',			'post' );
-        $name		= JRequest::getVar( 'contactmap_nom',		'',			'post' );
-        $email		= JRequest::getVar( 'contactmap_email',		'',			'post' );
-        $subject	= JRequest::getVar( 'contactmap_subject',	$default,	'post' );
-        $body		= JRequest::getVar( 'contactmap_message',	'',			'post' );
-        $emailCopy	= JRequest::getInt( 'contact_email_copy', 	0,			'post' );
+        $data = JFactory::getApplication()->getUserState('com_student.edit.academicachievement.data', array());
+        if (empty($data)) {
+            $data = $this->getData();
+        }
+        return $data;
     }
+
+    public function save($data)
+    {
+        $id = (!empty($data['id'])) ? $data['id'] : (int)$this->getState('academicachievement.id');
+        $state = (!empty($data['state'])) ? 1 : 0;
+        //$this->item->state = 1;
+        //$state_string = 'Publish';
+        //$state_value = 1;
+        //$user = JFactory::getUser();
+
+        $table = $this->getTable();
+        if ($table->save($data) === true) {
+            return $id;
+        } else {
+            return false;
+        }
+
+    }
+
 }

@@ -69,6 +69,8 @@ $document->addStyleSheet('components/com_student/assets/css/student.css');
                 				<input type="hidden" name="jform[id]" value="<?php echo $this->item->id; ?>" />
 				<li><?php echo $this->form->getLabel('name'); ?>
 				<?php echo $this->form->getInput('name'); ?></li>
+                <li><?php echo $this->form->getLabel('email'); ?>
+                    <?php echo $this->form->getInput('email'); ?></li>
 				<input type="hidden" name="jform[ordering]" value="<?php echo $this->item->ordering; ?>" />
 				<li><?php echo $this->form->getLabel('general_information'); ?>
 				<?php echo $this->form->getInput('general_information'); ?></li>

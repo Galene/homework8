@@ -1,3 +1,3 @@
-log = root
+log = gala
 pas = root
-see -> rss2
+see -> com-student -> academicachievementform

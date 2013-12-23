@@ -32,6 +32,8 @@ if (!$canEdit && JFactory::getUser()->authorise('core.edit.own', 'com_student'))
 			    <h3><?php echo $this->item->name; ?></h3></li>
             <li><!--<?php echo JText::_('COM_STUDENT_FORM_LBL_ACADEMICACHIEVEMENT_PHOTO'); ?>:-->
                 <img src="<?php echo $this->item->photo; ?>"></li>
+            <li><?php echo JText::_('COM_STUDENT_FORM_LBL_ACADEMICACHIEVEMENT_EMAIL'); ?>:
+                <p><?php echo $this->item->email; ?></p></li>
 			<li><?php echo JText::_('COM_STUDENT_FORM_LBL_ACADEMICACHIEVEMENT_GENERAL_INFORMATION'); ?> information:
 			    <p><?php echo $this->item->general_information; ?></p></li>
 			<li><?php echo JText::_('COM_STUDENT_FORM_LBL_ACADEMICACHIEVEMENT_DATE_OF_BIRTH'); ?>:
@@ -69,6 +71,7 @@ if (!$canEdit && JFactory::getUser()->authorise('core.edit.own', 'com_student'))
 									<form id="form-academicachievement-delete-<?php echo $this->item->id; ?>" style="display:inline" action="<?php echo JRoute::_('index.php?option=com_student&task=academicachievement.remove'); ?>" method="post" class="form-validate" enctype="multipart/form-data">
 										<input type="hidden" name="jform[id]" value="<?php echo $this->item->id; ?>" />
 										<input type="hidden" name="jform[name]" value="<?php echo $this->item->name; ?>" />
+                                        <input type="hidden" name="jform[email]" value="<?php echo $this->item->email; ?>" />
 										<input type="hidden" name="jform[ordering]" value="<?php echo $this->item->ordering; ?>" />
 										<input type="hidden" name="jform[general_information]" value="<?php echo $this->item->general_information; ?>" />
 										<input type="hidden" name="jform[sex]" value="<?php echo $this->item->sex; ?>" />

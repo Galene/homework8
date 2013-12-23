@@ -33,7 +33,7 @@
     padding:0;
 }
 
-#main .front-end-edit li{
+#main .front-end-edit li, #main .front-edit{
     list-style-type: none;
     font-weight: bold;
     margin: 10px;

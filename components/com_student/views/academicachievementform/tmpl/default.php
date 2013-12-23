@@ -67,6 +67,8 @@ $doc->addStyleSheet(JURI::root(true)."/components/com_student/style.css");
                 <input type="hidden" name="jform[ordering]" value="<?php echo $this->item->ordering; ?>" />
 				<li><?php echo $this->form->getLabel('name'); ?><br>
                     <?php echo $this->form->getInput('name'); ?></li>
+                <li><?php echo $this->form->getLabel('email'); ?><br>
+                    <?php echo $this->form->getInput('email'); ?></li>
                 <li ><?php echo $this->form->getLabel('general_information'); ?>
                     <?php echo $this->form->getInput('general_information'); ?></li>
 				<li style="clear: left"><?php echo $this->form->getLabel('sex'); ?>
